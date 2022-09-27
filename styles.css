@@ -10,5 +10,19 @@ Selects all image tags and makes them 500px;
 /*}*/
 
 .gallery-container {
-  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.gallery-item{
+  padding: 3rem;
+  box-shadow: 0 0 1.38vw   0.34vw rgba(0, 0, 0, 0.15);
+  background-color: dodgerblue;
+}
+body {
+  background-color: lightblue;
+
 }
